@@ -1,0 +1,126 @@
+# ── Byte-compiled / cache ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-wheel-metadata/
+
+# ── Virtual environments (never commit) ───────────────────────
+.venv/
+venv/
+ENV/
+env/
+.nox/
+.nvenv/
+navi-env/
+
+# ── Installer / packaging ───────────────────────────────────────
+*.manifest
+*.spec
+
+# ── Unit tests / coverage ─────────────────────────────────────
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+pytestdebug.log
+
+# ── Type checkers / linters ───────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+cython_debug/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ── Environment & secrets (API keys, tokens, passwords) ───────
+.env
+.env.*
+!.env.example
+.envrc
+*.pem
+*.p12
+*.pfx
+*.key
+!public.key
+secrets/
+.secrets/
+**/client_secret*.json
+**/client_secret*.json.*
+**/service-account*.json
+**/google-services.json
+
+# ── Google Calendar OAuth (secrets + refresh tokens) ────────────
+assets/google_credentials.json
+assets/google_token.json
+
+# ── Voice / speaker identity & local user data ──────────────────
+assets/voice_profile.npy
+assets/my_voice.wav
+assets/navi_voice.wav
+assets/memory.json
+assets/launcher_state.json
+
+# ── Wake / vendor hotkey models (licensed or personal) ─────────
+*.ppn
+porcupine_params*.pv
+
+# ── Project audits (may contain environment-specific findings) ──
+audits/
+
+# ── Runtime artifacts (speech buffers, debug transcripts) ─────
+temp_input.wav
+temp_output.wav
+temp_*.wav
+debug-*.log
+*.ndjson
+
+# ── OS / editor noise ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+
+# ── IDEs (local settings often contain paths or env snippets) ───
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# ── pyenv ───────────────────────────────────────────────────────
+.python-version
